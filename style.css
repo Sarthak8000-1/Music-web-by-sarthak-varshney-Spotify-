@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unlock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+body{
+  background-image: linear-gradient( limegreen, black,  white , limegreen);
+}
+.logo{
+  width: 50px 
+}
+.navbar {
+  background-color: black ;
+  font-family: "Sofadi One", system-ui;
+  font-size: 1.3rem;
+  border-radius: 12px;
+}
+.navbar ul{
+  display: flex;
+  align-items: center ; 
+}
+li{
+  list-style-type: none;
+  text-decoration: none;
+  padding: 10px ;
+ 
+}
+#prove{
+  padding-left: 4px;
+  float:left;
+}
+li a{
+  color: white;
+  text-decoration: none;
+}
+li a:hover{
+  background-color: floralwhite;
+  color : black;
+  border-radius: 7px; 
+  font-size: 2rem;
+  text-shadow: black;
+  font-family: "Protest Guerrilla", sans-serif;
+  transition: 2s;
+}
+.progresbar{
+  display: flex;
+  background-color: black;
+  height: 75px;
+  border-radius: 17px; 
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+  margin-top: 45px;
+  
+}
+
+#line{
+  width: 84%;
+  height: 35px;
+}
+.content{
+  border: 2px black solid;
+  height: 700px;
+  border-radius: 14px;
+  margin: 40px;
+  background-color: cornsilk;
+}
+.searchbox{
+  width: 75%;
+  margin: auto;
+  margin-top: 10px;
+  height: 25px;
+font-family: "Protest Guerrilla", sans-serif;
+box-shadow: 2px 3px 4px black;
+  border-radius: 7px;
+  margin-left: 55px;
+}
+.btn{
+  height: 25px;
+  margin-top: 10px;
+  margin-right: 35px;
+  width: 100px;
+  border-radius: 9px;
+  font-family: "Protest Guerrilla", sans-serif;
+  box-shadow: 2px 3px 4px black;
+}
+.heading{
+  text-align: center ;
+  font-family: "Unlock", serif;
+  text-shadow: 2px 3px 4px silver;
+}
+.list{
+  border: 2px black solid;
+  height: 550px;
+  border-radius: 15px;
+  margin: auto;
+  width: 92%;
+  background: url(https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat;
+  box-shadow: 5px 6px 7px black;
+}
+
+.hdr{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  font-size: 3rem;
+  font-family: "Oleo Script", system-ui;
+}
+
+.foot{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 15px;
+  font-family: "Protest Guerrilla", sans-serif;
+  color: white; 
+  text-shadow: 2px 2px 2px black;
+}
+.mouse{
+  display: block;
+}
+.secondfoot{
+  display: flex;
+  justify-content: center;
+  font-family: "Protest Guerrilla", sans-serif;
+  text-shadow: 2px 2px 2px black ;
+  color: white;
+}
+.mouse2{
+  display: block;
+  margin: 15px 65px ;
+  
+}
+.nextpage{
+  font-family: "Unlock", serif;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center ;
+  margin-top: 125px;
+}
+.firstsong{
+  width: 50px;
+  margin:3px 7px;
+  border-radius: 20px;
+  
+}
+.song{
+  background-color: white;
+  width: 75%;
+  margin: 25px auto ;
+  border-radius: 15px;
+  display: flex;
+  align-items: center ;
+  justify-content: space-evenly ;
+  font-family: "Unlock", serif;
+  font-size: 1.3rem;
+}
+#play{
+  width: 35px;
+  margin: 0 10px;
+  cursor: pointer;
+}
