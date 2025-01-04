@@ -1,5 +1,5 @@
 const play = document.getElementById('play');
-const audio = new Audio('songs/2.mp3')
+const audio = new Audio('songs/Tum.mp3')
 // song play and pause 
 play.addEventListener('click', () => {
   if (audio.paused || audio.currentTime<=0) {
@@ -28,3 +28,5 @@ line.addEventListener('change', ()=>
 {
    audio.currentTime= line.value*audio.duration/100;
 })
+ 
+  

@@ -70,7 +70,7 @@ li a:hover{
   margin: auto;
   margin-top: 10px;
   height: 25px;
-font-family: "Protest Guerrilla", sans-serif;
+font-family: "Protest Guerrilla", sans-serif;#42445A
 box-shadow: 2px 3px 4px black;
   border-radius: 7px;
   margin-left: 55px;
@@ -159,4 +159,10 @@ box-shadow: 2px 3px 4px black;
   width: 35px;
   margin: 0 10px;
   cursor: pointer;
+}
+.temp{
+  color: White;
+  text-align: center;
+  font-family: "Unlock", serif;
+ text-shadow: 2px 2px 2px black;
 }
