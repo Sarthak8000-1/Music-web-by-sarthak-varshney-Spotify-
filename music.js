@@ -1,3 +1,6 @@
+let Login= prompt('Name For Joining us')
+console.log(Login)
+
 const play = document.getElementById('play');
 const audio = new Audio('songs/Tum.mp3')
 // song play and pause 
