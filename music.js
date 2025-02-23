@@ -1,5 +1,4 @@
-
-const play = document.getElementById('play');
+, const play = document.getElementById('play');
 const audio = new Audio('songs/Tum.mp3')
 // song play and pause 
 play.addEventListener('click', () => {
