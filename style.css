@@ -3,7 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Unlock&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
 body{
-  background-image: linear-gradient( limegreen, black,  white , limegreen);
+  background-image: linear-gradient(#FF69B4 , lightpink , skyblue, white,
+    white, skyblue, lightpink,  #FF69B4);
 }
 .logo{
   width: 70px 
@@ -104,7 +105,7 @@ box-shadow: 2px 3px 4px black;
   justify-content: center;
   align-items: center;
   margin-top: 25px;
-  font-size: 3rem;
+  font-size: 4rem;
   font-family: "Oleo Script", system-ui;
 }
 
